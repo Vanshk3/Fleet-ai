@@ -99,9 +99,18 @@ fleet_ai/
 
 ---
 
-## Live demo
+## Run it locally
 
-[fleet-ai.streamlit.app](https://fleet-ai.streamlit.app) ← update this after deploying
+Clone the repo and run it yourself in under 10 minutes:
+```bash
+git clone https://github.com/vanshk3/fleet-ai
+cd fleet-ai
+pip install -r requirements.txt
+python train.py
+streamlit run app.py
+```
+
+Dataset: [Kaggle — Tyre Quality Classification](https://www.kaggle.com/datasets/warcoder/tyre-quality-classification)
 
 ---
 
